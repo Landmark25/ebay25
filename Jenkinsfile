@@ -6,7 +6,7 @@ pipeline{
     agent any
     //defining environmental variables 
     environment{
-        NEW_VERSION = '1.3.0'
+       // NEW_VERSION = '1.3.0'
     } 
     stages {
         stage('1-GitClone') {

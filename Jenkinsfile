@@ -1,6 +1,7 @@
 // Types of Jenkinsfile
 // to get the list of jenkins environmental variables <publicIp_address>:8080/env-vars.html/
-CODE_CHANGES = getGitChanges()
+// setting up a conditon 
+// CODE_CHANGES = getGitChanges()
 pipeline{
     agent any
     //defining environmental variables 
